@@ -222,7 +222,7 @@ export default function Hero() {
                 transition={{ duration: 5, repeat: Infinity, ease: "easeInOut", delay: 1 }}
               >
                 <p className="text-xs text-muted">Proyek</p>
-                <p className="text-primary font-medium">20+ Selesai</p>
+                <p className="text-primary font-medium">5+ Selesai</p>
               </motion.div>
             </motion.div>
           </motion.div>
