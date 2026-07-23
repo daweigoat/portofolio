@@ -10,7 +10,7 @@ export const EDUCATION: EducationItem[] = [
     startYear: "2023",
     endYear: "Present",
     description:
-      "Sedang menempuh pendidikan S1 di Universitas Gunadarma.",
+      "Sekarang lagi kuliah S1 di Universitas Gunadarma, fokus ngulik seputar IT.",
     achievements: [],
   },
   {
@@ -22,7 +22,7 @@ export const EDUCATION: EducationItem[] = [
     startYear: "2020",
     endYear: "2023",
     description:
-      "Jurusan Teknik Listrik.",
+      "Dulu lulusan Teknik Listrik, belajar dasar-dasar elektro sebelum banting setir ke dunia IT.",
     achievements: [],
   },
 ];

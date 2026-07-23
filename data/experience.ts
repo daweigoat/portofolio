@@ -9,11 +9,11 @@ export const EXPERIENCE: ExperienceItem[] = [
     startYear: "2024",
     endYear: "Present",
     description:
-      "Mengerjakan berbagai proyek web development dan desain UI/UX secara freelance untuk klien dari berbagai industri.",
+      "Ngerjain macem-macem project web dev dan desain UI/UX secara freelance buat klien dari berbagai bidang.",
     achievements: [
-      "Bikin landing page dan company profile untuk beberapa klien",
-      "Desain dan develop aplikasi web dengan Next.js dan Figma",
-      "Handle proyek dari konsep sampai deployment",
+      "Bikin landing page sama company profile buat klien",
+      "Ngedesain dan develop web app pakai Next.js & Figma",
+      "Handle project dari awal banget sampe bisa diakses online",
     ],
     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Figma", "React"],
     type: "freelance",
@@ -26,11 +26,11 @@ export const EXPERIENCE: ExperienceItem[] = [
     startYear: "2023",
     endYear: "2024",
     description:
-      "Fokus di desain UI/UX untuk berbagai klien, mulai dari wireframing, prototyping, sampai high-fidelity design di Figma.",
+      "Fokus ngedesain UI/UX buat klien. Mulai dari bikin oret-oretan (wireframing), prototype, sampai desain final yang cakep di Figma.",
     achievements: [
-      "Desain beberapa aplikasi mobile dan web",
-      "Bikin design system dan komponen reusable di Figma",
-      "Kolaborasi langsung sama klien untuk iterasi desain",
+      "Ngedesain beberapa aplikasi mobile dan web",
+      "Bikin design system biar desainnya konsisten",
+      "Sering tektokan sama klien buat nyesuain desain yang mereka mau",
     ],
     technologies: ["Figma", "Adobe XD", "Illustrator", "HTML", "CSS"],
     type: "freelance",

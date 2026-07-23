@@ -8,7 +8,7 @@ import SectionTitle from "@/components/ui/SectionTitle";
 const pinnedRepos = [
   {
     name: "face-recognition",
-    description: "Sistem absensi biometrik berbasis face recognition & liveness detection. Berjalan langsung di browser tanpa backend.",
+    description: "Sistem absen biometrik pakai face recognition & liveness detection. Langsung jalan di browser tanpa backend khusus.",
     language: "HTML",
     stars: 1,
     forks: 0,
@@ -16,7 +16,7 @@ const pinnedRepos = [
   },
   {
     name: "portfolio",
-    description: "Website portfolio personal dengan desain premium, animasi Framer Motion, dan dark mode glassmorphism.",
+    description: "Website portfolio pribadiku, dibikin pakai Next.js dengan desain gaya premium dan animasi smooth dari Framer Motion.",
     language: "TypeScript",
     stars: 0,
     forks: 0,
@@ -24,7 +24,7 @@ const pinnedRepos = [
   },
   {
     name: "ui-designs",
-    description: "Kumpulan UI/UX design assets, komponen, dan template yang aku buat selama freelance.",
+    description: "Kumpulan aset UI/UX, komponen, sama template-template desain yang aku bikin pas ngerjain project freelance.",
     language: "CSS",
     stars: 0,
     forks: 0,

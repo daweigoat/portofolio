@@ -5,14 +5,14 @@ import SectionTitle from "@/components/ui/SectionTitle";
 import { PROJECTS } from "@/data/projects";
 
 const phases = [
-  { label: "Overview", description: "Tujuan proyek, stakeholder, dan metrik keberhasilan didefinisikan dengan jelas sebelum ada satu piksel pun yang dibuat." },
-  { label: "Riset", description: "Wawancara user, analisis kompetitor, dan evaluasi heuristik untuk temuin pain point yang ada." },
-  { label: "Problem", description: "Hasil riset disintesis jadi pernyataan masalah yang jelas dan user journey map yang menonjolkan friction." },
-  { label: "Wireframe", description: "Eksplorasi cepat layout dan solusi flow dalam bentuk low-fidelity sebelum investasi ke visual." },
-  { label: "Desain UI", description: "High-fidelity design di Figma lengkap dengan design system yang konsisten, motion spec, dan layout responsif." },
-  { label: "Development", description: "Dibangun pakai Next.js dan TypeScript, implementasi design spec dengan presisi pixel-perfect." },
-  { label: "Testing", description: "Usability testing, QA lintas browser, audit Lighthouse, dan pengecekan aksesibilitas." },
-  { label: "Pelajaran", description: "Apa yang berhasil, apa yang kurang, dan gimana proyek ini bentuk keputusan desain dan engineering ke depannya." },
+  { label: "Overview", description: "Nentuin tujuan project, bareng siapa aja ngerjainnya, dan target utamanya sebelum mulai ngoding atau ngedesain." },
+  { label: "Riset", description: "Ngobrol sama user, ngecek web kompetitor, biar tau persis masalah apa yang mau diselesaiin." },
+  { label: "Problem", description: "Bikin rangkuman dari hasil riset jadi poin-poin masalah yang jelas biar gampang diatasi." },
+  { label: "Wireframe", description: "Bikin corat-coret kasar layout dan flow-nya dulu, biar cepet dapet gambaran kasarnya." },
+  { label: "Desain UI", description: "Mulai poles desain di Figma sampai cakep, bikin design system, dan mastiin responsive." },
+  { label: "Development", description: "Ngoding pakai Next.js dan TypeScript. Bikin kodenya rapi dan desainnya sesuai banget sama Figma (pixel-perfect)." },
+  { label: "Testing", description: "Ngetes aplikasinya biar ga ada bug, cek di berbagai browser, dan ngecek aksesibilitasnya." },
+  { label: "Pelajaran", description: "Review apa aja yang udah oke, yang masih kurang, buat bekal ngerjain project selanjutnya." },
 ];
 
 export default function CaseStudies() {
