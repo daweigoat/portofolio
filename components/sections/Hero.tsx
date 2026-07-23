@@ -195,7 +195,7 @@ export default function Hero() {
               {/* Container foto */}
               <div className="relative w-72 h-80 md:w-80 md:h-96 lg:w-[420px] lg:h-[520px] rounded-3xl overflow-hidden glass border border-white/[0.08]">
                 <Image
-                  src="/assets/images/profile.jpg"
+                  src="/assets/images/profile-v2.jpg"
                   alt="Rayyan Alghifari"
                   fill
                   className="object-cover object-top"
