@@ -12,6 +12,7 @@ import Workflow from "@/components/sections/Workflow";
 import GitHub from "@/components/sections/GitHub";
 import FAQ from "@/components/sections/FAQ";
 import Contact from "@/components/sections/Contact";
+import Certificates from "@/components/sections/Certificates";
 
 export default function HomePage() {
   return (
@@ -43,6 +44,9 @@ export default function HomePage() {
       <Experience />
 
       <Education />
+
+      <div className="h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent" />
+      <Certificates />
 
       <div className="h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent" />
       <Workflow />
