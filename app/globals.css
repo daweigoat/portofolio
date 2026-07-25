@@ -290,3 +290,30 @@ html.lenis, html.lenis body {
 .lenis.lenis-smooth iframe {
   pointer-events: none;
 }
+
+/* Google Translate Widget Hacks */
+body {
+  top: 0 !important;
+}
+.skiptranslate iframe {
+  display: none !important;
+}
+.goog-tooltip, .goog-tooltip:hover {
+  display: none !important;
+}
+.goog-text-highlight {
+  background-color: transparent !important;
+  border: none !important; 
+  box-shadow: none !important;
+}
+.goog-te-combo {
+  background-color: var(--surface);
+  color: var(--primary);
+  border: 1px solid var(--border-light);
+  border-radius: 9999px;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  outline: none;
+  cursor: pointer;
+}
+

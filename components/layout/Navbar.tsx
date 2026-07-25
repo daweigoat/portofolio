@@ -6,6 +6,7 @@ import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import { NAV_LINKS, SITE_CONFIG } from "@/constants";
 import { cn } from "@/lib/utils";
+import GoogleTranslate from "@/components/ui/GoogleTranslate";
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -117,23 +118,24 @@ export default function Navbar() {
             })}
           </nav>
 
-          {/* CTA */}
-          <div className="hidden md:flex items-center gap-3">
+          {/* Translate (Mobile & Desktop) + CTA (Desktop) */}
+          <div className="flex items-center gap-3 md:gap-4">
+            <GoogleTranslate />
+            
             <a
               href="#contact"
               onClick={(e) => { e.preventDefault(); handleNavClick("#contact"); }}
-              className="px-4 py-2 text-sm rounded-full glass border border-white/[0.08] text-primary hover:bg-white/[0.06] transition-all duration-300"
+              className="hidden md:block px-4 py-2 text-sm rounded-full glass border border-white/[0.08] text-primary hover:bg-white/[0.06] transition-all duration-300"
             >
               Ngobrol Yuk
             </a>
-          </div>
 
-          {/* Mobile menu button */}
-          <button
-            onClick={() => setIsMobileOpen(!isMobileOpen)}
-            className="md:hidden text-primary z-10 p-2"
-            aria-label={isMobileOpen ? "Tutup menu" : "Buka menu"}
-          >
+            {/* Mobile menu button */}
+            <button
+              onClick={() => setIsMobileOpen(!isMobileOpen)}
+              className="md:hidden text-primary z-10 p-2"
+              aria-label={isMobileOpen ? "Tutup menu" : "Buka menu"}
+            >
             <AnimatePresence mode="wait">
               {isMobileOpen ? (
                 <motion.span
