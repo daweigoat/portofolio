@@ -32,7 +32,7 @@ export default function Counter({ value, suffix = "", duration = 2, className }:
   }, [isInView, value, duration]);
 
   return (
-    <span ref={ref as React.RefObject<HTMLSpanElement>} className={className}>
+    <span ref={ref as React.RefObject<HTMLSpanElement>} className={`${className || ''} notranslate`}>
       {count}
       {suffix}
     </span>
