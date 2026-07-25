@@ -160,6 +160,7 @@ export default function Navbar() {
               )}
             </AnimatePresence>
           </button>
+          </div>
         </div>
       </motion.header>
 
